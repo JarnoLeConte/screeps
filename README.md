@@ -17,6 +17,12 @@ Watch:
     ./gradlew -t deploy
 
 
+### Run scripts for interactive developmnt of algorithms
+
+```
+npx nodemon --exec kotlinc -script scripts/{SCRIPT}.kts
+```
+
 ### Troubleshooting
 
 #### Gradle says it deployed correctly, but my code doesnt show up.
